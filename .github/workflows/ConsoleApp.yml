@@ -1,0 +1,17 @@
+name: Displaying message welcome
+
+on: push
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: step1 this is welcome
+        run: echo "Welcome to GitHub Runner"
+
+      - name: step2
+        run: echo "Bye from GitHub Runner"
+
+      - name: step3
+        run: echo "This is GitHub Action Manager"
